@@ -5,7 +5,7 @@ import pokemonLogo from "./assets/pokemon-logo.png";
 import {PokemonCard} from "./components/pokemon/PokemonCard";
 import {PokeButtons} from "./components/buttons/PokeButtons";
 
-
+//ignore this comment
 
 
 function App() {
