@@ -18,8 +18,6 @@ export function PokemonCard({ pokemon }){
                 const result = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
                 setPokemonData(result.data)
                 setPokemonImage(result.data.sprites)
-
-                console.log(result.data)
                 setPokemonAbilities(result.data.abilities)
                 setPokemonMoves(result.data.moves)
             } catch(e) {
