@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;600&display=swap');
+
+button {
+    background-color: hsl(217, 55%, 44%);
+    border-color: hsl(0, 0%, 100%);
+    border-style: solid;
+    width: 100px;
+    height: 25px;
+    margin: auto 10px auto 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:disabled  {
+    opacity: 50%;
+    cursor: auto;
+}
